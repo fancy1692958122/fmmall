@@ -1,0 +1,38 @@
+package com.qfedu.fmmall.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+import java.util.List;
+
+/**
+ * @author fancy
+ * @create 2023-02-17 22:33
+ */
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class CategoryVO {
+
+
+
+    private Integer categoryId;
+    private String categoryName;
+    private Integer categoryLevel;
+    private Integer parentId;
+    private String categoryIcon;
+    private String categorySlogan;
+    private String categoryPic;
+    private String categoryBgColor;
+    //实现首页的类别显示
+    private List<CategoryVO> categories;
+
+    //商品 及商品图片
+    private List<ProductVO> products;
+
+
+}
