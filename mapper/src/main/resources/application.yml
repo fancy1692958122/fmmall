@@ -5,7 +5,7 @@ spring:
       ## 如果后端项目服务器和数据库服务器不在同一台主句，则需要修改地址
       url: jdbc:mysql://localhost:3306/fmmall2?characterEncoding=utf-8
       username: root
-      password: root
+      password: 8070733zZ
 
 
 mybatis:
